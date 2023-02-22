@@ -35,6 +35,8 @@ input, button {
 .content1{
     background-color: rgba(250, 83, 5, 0.3);
     margin-left: -200px;
+    position: relative;
+    z-index: -1;
 }
 .main_content{
     background-image: url('../img/img1.jpg');
@@ -43,6 +45,8 @@ input, button {
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
+    position: relative;
+    z-index: 1;    
 }
 .border1{
     border: 5px solid white;
@@ -86,6 +90,8 @@ input, button {
     font-size: 250px;
     padding-top: 50px;
     padding-bottom: 30px;
+    position: relative;
+    z-index: 4;
     /* padding-left: 30px; */
 }
 .flyer{
@@ -110,8 +116,7 @@ input, button {
     writing-mode: vertical-lr;   
 }
 .subcontent2{
-    /* border-left: 5px solid white; */
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     font-weight: 500;
     padding: 20px 0px;
@@ -119,10 +124,7 @@ input, button {
 }
 .logo1{
     width: 150px;
-    height: 180px;
-    padding: 0px 30px;
-    padding-top: 80px;
-    padding-bottom: 20px;    
+    height: 150px;
 }
 .icon{
     font-size: 30px;
@@ -131,6 +133,7 @@ input, button {
 .pg2{
     color: white;
     padding-left: 20px;
+    font-size: 20px;
 }
 .complex{
     margin-left: -185px;
@@ -147,7 +150,7 @@ input, button {
     text-align: right;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 280px;
+    padding-top: 325px;
 }
 .ab{
     color: white;
@@ -162,6 +165,8 @@ input, button {
 .complex4{
     background-color:rgba(177, 232, 232, 0.4);
     margin-top: -400px;
+    position: relative;
+    z-index: 2;
 }
 .complex5{
     border-top: 3px solid rgb(44, 44, 44);
@@ -180,3 +185,100 @@ input, button {
     font-weight: 400;
     padding: 30px 60px;
 }
+
+@media (max-width:1199px) and (min-width:50px){
+    .main_content{
+        width:200wh;
+        margin-left: 0px;
+    }
+} 
+
+@media (max-width:1199px) and (min-width:50px){
+    .content1{
+        background-color: rgba(250, 83, 5, 0.3);
+        margin-left: -10px;
+        position: relative;
+        z-index: -1;
+    }
+}
+@media (max-width:1199px) and (min-width:50px){
+    .border1{
+        border: 5px solid white;
+        width: 550px;
+        margin-left: -10px;
+        
+        /* margin-top: 10px; */
+    }
+}
+@media (max-width:1199px) and (min-width:50px){
+    .logo1{
+        width:50px;
+        height:50px;
+        /* padding-bottom: 53px; */
+    }
+}  
+@media (max-width:1199px) and (min-width:50px){
+    .image{
+       display: flex;
+    }
+} 
+@media (max-width:1199px) and (min-width:50px){
+    .business{
+       font-size: 80px;
+    }
+}  
+@media (max-width:1199px) and (min-width:50px){
+    .flyer{
+       font-size: 60px;
+       margin-top: -70px;
+    }
+} 
+@media (max-width:1199px) and (min-width:100px){
+    .creative{
+       font-size: 20px;
+       margin-top: -30px;
+    }
+} 
+@media (max-width:1199px) and (min-width:50px){
+    .subcontent1{
+       margin-top: -50px;
+       font-size: 20px;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+} 
+@media (max-width:1199px) and (min-width:50px){
+    .trend{
+        text-orientation: sideways-right;
+        writing-mode: horizontal-tb; 
+        text-align: center; 
+        font-size: 40px;
+        margin-left: 0px;
+    }
+} 
+@media (max-width:1199px) and (min-width:50px){
+    .complex{
+       font-size: 60px;
+       margin: 0px 0px;
+    }
+} 
+@media (max-width:1199px) and (min-width:50px){
+    .subcontent2{
+       font-size: 25px;
+    }
+} 
+@media (max-width:1199px) and (min-width:50px){
+    .icon{
+       font-size: 20px;       
+    }
+} 
+@media (max-width:1199px) and (min-width:50px){
+    .pg2{
+       font-size: 15px;     
+    }
+} 
+
+
+
+
+
