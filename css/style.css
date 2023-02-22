@@ -83,8 +83,9 @@ input, button {
     border-left: 9px solid white;
 }
 .business{
-    font-size: 200px;
+    font-size: 250px;
     padding-top: 50px;
+    padding-bottom: 30px;
     /* padding-left: 30px; */
 }
 .flyer{
@@ -110,17 +111,18 @@ input, button {
 }
 .subcontent2{
     /* border-left: 5px solid white; */
-    font-size: 20px;
+    font-size: 35px;
     color: white;
     font-weight: 500;
     padding: 20px 0px;
 
 }
 .logo1{
-    width: 230px;
+    width: 150px;
     height: 180px;
-    padding: 0px 20px;
-    padding-top: 80px;    
+    padding: 0px 30px;
+    padding-top: 80px;
+    padding-bottom: 20px;    
 }
 .icon{
     font-size: 30px;
@@ -131,5 +133,50 @@ input, button {
     padding-left: 20px;
 }
 .complex{
-    margin-left: -160px;
+    margin-left: -185px;
+    border-left: 9px solid white;
+    padding-right: 30px;
+}
+.complex1{
+    padding-left: 20px;
+}
+.a{
+    font-size: 100px;
+    color: white;
+    font-weight: 500;
+    text-align: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 280px;
+}
+.ab{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    border-bottom: 3px solid rgb(189, 187, 187);
+    padding-bottom: 30px;
+    text-align: right;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.complex4{
+    background-color:rgba(177, 232, 232, 0.4);
+    margin-top: -400px;
+}
+.complex5{
+    border-top: 3px solid rgb(44, 44, 44);
+}
+.icon5{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.icon6{
+    padding: 0px 60px;
+}
+.center{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    padding: 30px 60px;
 }
