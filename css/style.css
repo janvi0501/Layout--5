@@ -33,7 +33,7 @@ input, button {
     background-color: rgb(53, 53, 53);
 }
 .content1{
-    background-color: rgba(250, 83, 5, 0.3);
+    background-color: rgba(237, 138, 88, 0.680);
     margin-left: -200px;
     position: relative;
     z-index: -1;
@@ -103,9 +103,9 @@ input, button {
     font-size: 30px;
 }
 .trend{
-    background-color: rgba(250, 83, 5, 0.3);
+    background-color: rgba(237, 138, 88, 0.680);
     border: 10px solid white;
-    font-size: 60px;
+    font-size: 45px;
     /* height: 500px; */
     /* text-align: center; */
     color: white;
@@ -163,7 +163,7 @@ input, button {
     padding-right: 30px;
 }
 .complex4{
-    background-color:rgba(177, 232, 232, 0.4);
+    background-color:rgba(65, 216, 207, 0.600);
     margin-top: -400px;
     position: relative;
     z-index: 2;
@@ -195,7 +195,7 @@ input, button {
 
 @media (max-width:1199px) and (min-width:50px){
     .content1{
-        background-color: rgba(250, 83, 5, 0.3);
+        background-color: rgba(237, 138, 88, 0.680);
         margin-left: -10px;
         position: relative;
         z-index: -1;
